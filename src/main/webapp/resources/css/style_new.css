@@ -1,0 +1,108 @@
+html, body {height: 100%;}
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 0.8rem;
+  background: url(../img/Fon.jpg) no-repeat center center fixed;
+  background-size: cover; 
+  -webkit-background-size: cover;
+}
+
+.fontBig {font-size: 1.0rem !important;}
+
+.pointer {cursor: pointer;}
+h1 {font-size: 2.3rem;}
+h2 {font-size: 2rem;}
+h3 {font-size: 1.7rem;}
+h4 {font-size: 1.4rem;}
+h5 {font-size: 1.1rem;}
+h6 {font-size: 1rem;}
+header, main, footer {padding-left: 240px;}
+@media only screen and (max-width : 768px) {header, main, footer {padding-left: 0;}}
+/* Меняем дефолтные цвета */
+.black, .black-skin .gradient {background: #343a40 !important;}
+.registrationForm {min-height: 600px;}
+#formField {display: none;}
+/* Сортируемые таблицы */
+.bs-select, .dataTables_info {text-align: left!important;}
+/* Лоадер  окно */
+.btnSuccess, .btnCancel, .btnUndo {
+  max-width: 500px!important;
+  height: 50vh;
+  margin: 0 auto;
+}
+/* Серый цвет у залоченных полей */
+.disableElem {
+  background: rgb(232, 235, 237)!important;
+  color: #666666!important;
+}
+/* Ширина модального окна */
+.modal-size-big {width: 1100px!important;}
+.modal-size-lg {width: 700px!important;}
+.modal-size-md {width: 500px!important;}
+.modal-size-sm {width: 400px!important;}
+.modal-dialog {max-width: 100%!important;}
+.selectUser .fontSmall {
+  font-size: 0.6rem;
+  margin: 0!important;
+  padding: 0!important;
+  position: absolute;
+  top: -5px;
+}
+sup {font-size: 6px;}
+.mdb-select {
+  margin: 0.8rem 0 0 0!important;
+  padding: 0;
+}
+/* Кнопка раскрытия и сокрытия */
+.btnView, .btnClose, .btnViewNew, .btnCloseNew {
+  position: absolute;
+  right: 1rem;
+}
+.btnAnswer {
+  position: absolute;
+  left: 1rem;
+}
+#horizontalBar {height: 280px!important;}
+.myCard {height: 480px!important;}
+.chartDiv .myImg {position: absolute;}
+
+.chartDiv {
+  width: 100%;
+  height: 270px;
+  position: absolute;
+  top: 3rem;
+  margin-left: -1.2rem;
+}
+
+.blockChart {
+  margin-top: 7rem;
+  padding-bottom: 2rem;
+}
+
+.chartLink {
+  width: 4.5rem;
+  height: 4.5rem;
+  position: absolute;
+  top: 8.5rem;
+  margin-left: -2.5rem;
+}
+
+.help {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+/* Смена при выборе пользователя в модальном окне секретаря */
+/*.choiseUserName:active {
+
+}*/
+
+.chosen-invalid, .invalid {border: 1px solid #f00!important;}
+/*.invalid-feedback {text-align: left!important; margin-top: 0!important; padding-top: 0!important;}*/
+
+/* Блокировка загрузки страницы */
+#mdb-preloader.loaded {
+  opacity: 0;
+  transition: .3s ease-in 1s;
+}

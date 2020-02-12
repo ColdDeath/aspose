@@ -1,0 +1,81 @@
+.body-container {
+    position:fixed;
+    top: 40%;
+    left: 50%;
+    margin-top: -100px; /* Negative half of height. */
+    margin-left: -290px; /* Negative half of width. */
+    z-index: 1;
+}
+
+.logo-container {
+    position:fixed;
+    top: 1%;
+    z-index: 2;
+}
+
+.logo {
+    width: 45%;
+    margin: 10px 10px 10px 45px;
+    display: inline-block;
+}
+
+.dgi-name {
+    position: fixed;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+ul {
+    /*display: inline-block;*/
+    display: block;
+    list-style-type: none;
+    top: 15px;
+    left: 140px;
+}
+
+ul li {
+    font-family: "CaviarDreamsBold";
+    font-size: 25px;
+    margin: 10px;
+    letter-spacing: 0.1em;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.95);
+}
+
+body {
+    background: url(../images/background.png) repeat-y;
+    margin-top:0;
+    padding-top:0;
+}
+
+@font-face {
+    font-family: CaviarDreamsBold;
+    src: url(../fonts/CaviarDreamsBold.ttf);
+}
+
+@font-face {
+    font-family: JosefinSans;
+    src: url(../fonts/JosefinSans.ttf);
+}
+
+.login{
+    font-family: 'JosefinSans', sans-serif;
+    background: #f7f7f7;
+}
+
+label{
+    font-weight:400;
+    font-size:15px;
+}
+
+.form{
+    padding:20px 30px;
+}
+
+.form-control {
+    font-size:18px;
+}
+
