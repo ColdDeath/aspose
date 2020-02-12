@@ -28,7 +28,7 @@
         <h2.version>1.4.187</h2.version>
         <postgresql.version>42.2.5</postgresql.version>
         <jsoup.version>1.10.1</jsoup.version>
-        <jackson-json.version>2.9.5</jackson-json.version>
+        <jackson-json.version>2.10.2</jackson-json.version>
         <spring-ldap-core.version>2.3.2.RELEASE</spring-ldap-core.version>
         <maven.surefire.version>2.22.0</maven.surefire.version>
         <json-simple>1.1.1</json-simple>
